@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# virtualenv (created by install.ps1)
+.venv/
+venv/
+
+# captured frames, if WEBCAM_OUTPUT_DIR points inside the repo
+*.jpg
+*.jpeg
+
+# diagnostic log
+webcam-mcp.log
+webcam-mcp.log.*
+
+# editor / OS noise
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

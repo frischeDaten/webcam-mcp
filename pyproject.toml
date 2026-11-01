@@ -1,0 +1,12 @@
+[project]
+name = "webcam-mcp"
+version = "0.2.0"
+description = "Local MCP server that captures webcam stills for Claude (Windows, DirectShow via OpenCV, auto-selects the right camera per machine)"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=2.0",
+    "opencv-python>=4.9",
+]
+
+[project.scripts]
+webcam-mcp = "server:main"
